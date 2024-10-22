@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: lightseagreen;
+    /* width: 96vw; */
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: lightseagreen; /* Cor de fundo verde ainda mais escuro para o nav */
+    color: black; /* Texto branco para manter o contraste com o fundo escuro */
+    padding: 10px; /* Adiciona 10px de espaçamento interno em volta do conteúdo de navegação */
+    text-align: center; /* Centraliza o conteúdo do menu de navegação */
+}
+
+/* Remove os estilos de lista padrão do <ul> (lista não ordenada) dentro do nav */
+nav ul {
+    list-style: none; /* Remove os marcadores (bolinhas) da lista */
+    padding: 0; /* Remove o padding interno da lista */
+    margin: 0; /* Remove a margem externa da lista */
+    
+}
+
+/* Estiliza os itens da lista <li> dentro do nav */
+nav ul li {
+    display: inline; /* Faz com que os itens da lista apareçam na mesma linha, ao invés de verticalmente */
+    margin-right: 15px; /* Adiciona um espaço de 20px à direita de cada item, exceto o último */
+    color: #000000;
+}
+
+/* Estiliza os links dentro dos itens da lista de navegação */
+nav ul li a {
+    color: black; /* Define a cor do texto do link como um verde claro */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+.codigo{
+    text-align: center;
+    color: lightseagreen
+}
+.html{
+    border-radius: 8%;
+    height: 500px;
+    width: 500px;
+    display: block;
+    margin: 0 auto;
+    border-style : solid;
+    border-color: lightseagreen;
+   
+}
+.capa{
+    text-align: center;
+    color: lightseagreen
+}
+.site{
+    border-radius: 10%;
+    height: 340px;
+    width: 800px;
+    display: block;
+    margin: 0 auto;
+    border-style : solid;
+    border-color: lightseagreen;
+   
+}
+.descrição{
+    text-align: center;
+    color: lightseagreen
+}
+.descrição2{
+    margin-left: 450px;
+    height: 100px;
+    width: 700px;
+    text-align: center;
+}
+.github{
+    text-align: center;
+    color: lightseagreen;
+}
+.main{
+    text-align: center;
+}
+
+footer{
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+    
+}

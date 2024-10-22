@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    background-color: lightseagreen;
+    /* width: 96vw; */
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: lightseagreen; /* Cor de fundo verde ainda mais escuro para o nav */
+    color: black; /* Texto branco para manter o contraste com o fundo escuro */
+    padding: 10px; /* Adiciona 10px de espaçamento interno em volta do conteúdo de navegação */
+    text-align: center; /* Centraliza o conteúdo do menu de navegação */
+}
+
+/* Remove os estilos de lista padrão do <ul> (lista não ordenada) dentro do nav */
+nav ul {
+    list-style: none; /* Remove os marcadores (bolinhas) da lista */
+    padding: 0; /* Remove o padding interno da lista */
+    margin: 0; /* Remove a margem externa da lista */
+    
+}
+
+/* Estiliza os itens da lista <li> dentro do nav */
+nav ul li {
+    display: inline; /* Faz com que os itens da lista apareçam na mesma linha, ao invés de verticalmente */
+    margin-right: 15px; /* Adiciona um espaço de 20px à direita de cada item, exceto o último */
+    color: #000000;
+}
+
+/* Estiliza os links dentro dos itens da lista de navegação */
+nav ul li a {
+    color: black; /* Define a cor do texto do link como um verde claro */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+}
+.boasvindas{
+    padding: 40px;
+}
+.quemsoueu{
+    color: lightseagreen;
+    /* width: 100vw; */
+    padding: 30px;
+    text-align: center; 
+}
+.sobremim{
+   
+    /* position: relative; */
+    margin-left: 450px;
+    height: 100px;
+    width: 700px;
+    
+}
+.foto{
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+   
+}
+.lista{
+    padding: 20px; /* Adiciona um espaço interno de 20px ao redor do conteúdo principal */
+    background-color: rgb(255, 255, 255); /* Define o fundo branco para destacar o conteúdo em relação ao fundo azul claro do body */
+    margin: 20px; /* Adiciona uma margem externa de 20px ao redor da seção main, separando-a das bordas da página */
+    border-radius: 10px; /* Adiciona bordas arredondadas para suavizar os contornos */
+    text-align: center; 
+    margin: 0 auto;
+}
+.ensino{
+    width: 30vw;
+    padding: 10px;
+    padding: 20px; /* Adiciona um espaço interno de 20px ao redor do conteúdo principal */
+    background-color: lightseagreen; /* Define o fundo branco para destacar o conteúdo em relação ao fundo azul claro do body */
+    margin: 20px; /* Adiciona uma margem externa de 20px ao redor da seção main, separando-a das bordas da página */
+    border-radius: 10px; /* Adiciona bordas arredondadas para suavizar os contornos */
+    text-align: center; 
+    margin-left: 40%;
+   
+}
+.emprego{
+    width: 30vw;
+    padding: 10px;
+    padding: 20px; /* Adiciona um espaço interno de 20px ao redor do conteúdo principal */
+    background-color: lightseagreen; /* Define o fundo branco para destacar o conteúdo em relação ao fundo azul claro do body */
+    margin: 20px; /* Adiciona uma margem externa de 20px ao redor da seção main, separando-a das bordas da página */
+    border-radius: 10px; /* Adiciona bordas arredondadas para suavizar os contornos */
+    text-align: center; 
+    margin-left: 48%;
+
+}
+.trabalho{
+    color: lightseagreen;
+    /* width: 100vw; */
+    padding: 50px;
+    text-align: center; 
+}
+
+.lustre{
+    border-radius: 10%;
+   
+    /* height: 250px;
+    width: 250px;
+    display: block;
+    margin: 0 auto; */
+   
+}
+.lustre:active{
+    background-color: lightseagreen;
+}
+.restaurante{
+    border-radius: 10%;
+    margin-left: 10%;
+}
+.formulario{
+    color: lightseagreen;
+    /* width: 100vw; */
+    /* padding: 50px; */
+    text-align: center; 
+}
+.habilidade{
+    color: lightseagreen;
+    /* width: 100vw; */
+    /* padding: 50px; */
+    text-align: center; 
+}
+.tabela{
+    border-radius: 10%;
+    /* height: 500px; */
+    width: 100%;
+     max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    border-style : solid;
+    border-color: lightseagreen;
+    margin-left: 27%;
+    /* text-align: center;  */
+}
+.habilidades{
+    text-align: justify;
+    
+    margin: 10px;
+}
+button{
+    border-radius: 15px;
+    height: 30px;
+    width: 80px; 
+}
+button:active{
+    background-color: lightseagreen;
+}
+
+main{
+    text-align: center;
+    /* position: relative;
+    margin-left:30;
+    height: 100;
+    width: 100; */
+}
+footer{
+    background-color: lightseagreen;
+    padding: 20px;
+    text-align: center;
+}
